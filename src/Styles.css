@@ -1,0 +1,62 @@
+.tile {
+  border: 1px solid rgb(0, 0, 0);
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  margin: 2px;
+}
+.correct {
+  background-color: lightgreen;
+  border: 1px solid rgb(0, 0, 0);
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  margin: 2px;
+}
+.close {
+  background-color: yellow;
+  border: 1px solid rgb(0, 0, 0);
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  margin: 2px;
+}
+.incorrect {
+  background-color: lightgray;
+  border: 1px solid rgb(0, 0, 0);
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  margin: 2px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.body {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.photo{
+  width: 20rem;
+  position: relative;
+}
+.btn{
+  cursor: pointer;
+  background-color: white;
+  border: none;
+  padding: 5px;
+  width: 80px;
+  font-size: 17px;
+  font-family: sans-serif;
+  border-radius: 25px 25px 25px 25px;
+}
+.btn:hover{
+  font-size: 18px;
+  padding: 6px;
+}
